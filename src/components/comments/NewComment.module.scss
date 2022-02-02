@@ -1,0 +1,11 @@
+.form {
+   width: 100%;
+   label {
+      display: block;
+   }
+   textarea {
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 1rem;
+   }
+}

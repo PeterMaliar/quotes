@@ -1,0 +1,27 @@
+.form {
+   text-align: right;
+   .control {
+      margin-bottom: .5rem;
+      & * {
+         display: block;
+         width: 100%;
+         margin-bottom: .25rem;
+         font-size: 1rem;
+      }
+      label {
+         font-weight: bold;
+         text-align: left;
+      }
+      input, textarea {
+         border: none;
+         padding: .5rem;
+         background-color: #EFEFEF;
+         &:active,
+         &:focus {
+            border: 2px solid #008080;
+            background-color: #CCF0F1;
+            outline: none;
+         }
+      }
+   }
+}

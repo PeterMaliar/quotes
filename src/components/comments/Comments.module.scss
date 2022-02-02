@@ -1,0 +1,17 @@
+.comments {
+   margin-top: 3rem;
+   text-align: center;
+   & * {
+      margin-bottom: 1rem;
+   }
+   ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 1rem;
+      li {
+         margin-bottom: 5px;
+         text-align: left;
+      }
+   }
+}
